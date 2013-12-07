@@ -11,7 +11,8 @@
         "ijreview.com",
         "buzzfeed.com",
         "jolt24.com",
-        "lawlzone.com"
+        "lawlzone.com",
+        "lolspots.com"
     ],
     removeArticles = function(){
         var articles = document.querySelectorAll( "._5uch._5jmm._5pat" )
