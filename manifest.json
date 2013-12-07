@@ -1,0 +1,13 @@
+{
+  "name": "Unworthy",
+  "version": "1.0",
+  "description": "NO MOAR UPWORTHY",
+  "permissions": ["tabs", "*://*.facebook.com/*"],
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["*://*.facebook.com/*"],
+      "js": ["background.js"]
+    }
+  ]
+}
